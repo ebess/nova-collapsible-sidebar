@@ -46,13 +46,12 @@ That's it! Now you can toggle the sidebar by clicking the icon. **By default you
 Also there are several other options you can configure.
 
 Will save the collapsed status to local storage:
-```vue
+```blade
 <collapsible-sidebar class="..." persist>
->
 ```
 
 Now you can toggle it by pressing `F2` instead of `Esc`:
-```vue
+```blade
 <collapsible-sidebar class="..." toggle-key-code="F2">
 ```
 
