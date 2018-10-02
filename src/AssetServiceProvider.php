@@ -1,6 +1,6 @@
 <?php
 
-namespace Deinhandy\CollapsibleSidebar;
+namespace Ebess\CollapsibleSidebar;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

@@ -41,7 +41,7 @@ Replace the ordinary `div` tag by `collapsible-sidebar`.
 </collapsible-sidebar>
 ```
 
-That's it! Now you can toggle the sidebar by clicking the icon. By default you can use `ESC` to toggle it as well. 
+That's it! Now you can toggle the sidebar by clicking the icon. **By default you can use `ESC` to toggle it as well.** 
 
 Also there are several other options you can configure:
 
