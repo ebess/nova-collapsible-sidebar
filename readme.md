@@ -45,7 +45,7 @@ That's it! Now you can toggle the sidebar by clicking the icon. **By default you
 
 Also there are several other options you can configure:
 
-```
+```vue
 <collapsible-sidebar class="..."
                      persist <!-- will save the collapsed status to local storage -->
                      storage-key="other-key-name" <!-- local storage key name -->
