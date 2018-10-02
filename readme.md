@@ -41,16 +41,19 @@ Replace the ordinary `div` tag by `collapsible-sidebar`.
 </collapsible-sidebar>
 ```
 
-That's it! Now you can toggle the sidebar by clicking the icon. **By default you can use `ESC` to toggle it as well.** 
+That's it! Now you can toggle the sidebar by clicking the icon. **By default you can use `Esc` to toggle it as well.** 
 
-Also there are several other options you can configure:
+Also there are several other options you can configure.
 
+Will save the collapsed status to local storage:
 ```vue
-<collapsible-sidebar class="..."
-                     persist <!-- will save the collapsed status to local storage -->
-                     storage-key="other-key-name" <!-- local storage key name -->
-                     toggle-key-code="F2" <!-- now you can toggle it by pressing F2 -->
+<collapsible-sidebar class="..." persist>
 >
+```
+
+Now you can toggle it by pressing `F2` instead of `Esc`:
+```vue
+<collapsible-sidebar class="..." toggle-key-code="F2">
 ```
 
 
