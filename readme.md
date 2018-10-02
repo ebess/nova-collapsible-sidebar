@@ -18,7 +18,7 @@ php artisan nova:publish
 
 In `resources/views/vendor/nova/layout.blade.php` you will find the sidebar which looks something like this. 
 
-```blade
+```html
 <!-- Sidebar -->
 <div class="min-h-screen flex-none pt-header min-h-screen w-sidebar bg-grad-sidebar px-6">
     <a href="{{ Nova::path() }}">
@@ -35,7 +35,7 @@ In `resources/views/vendor/nova/layout.blade.php` you will find the sidebar whic
 
 Replace the ordinary `div` tag by `collapsible-sidebar`.
 
-```blade
+```html
 <collapsible-sidebar class="min-h-screen flex-none pt-header min-h-screen w-sidebar bg-grad-sidebar px-6">
     <!-- -->
 </collapsible-sidebar>
@@ -46,13 +46,17 @@ That's it! Now you can toggle the sidebar by clicking the icon. **By default you
 Also there are several other options you can configure.
 
 Will save the collapsed status to local storage:
-```blade
-<collapsible-sidebar class="..." persist>
+```html
+<collapsible-sidebar class="..." persist>    
+    <!-- -->
+</collapsible-sidebar>
 ```
 
 Now you can toggle it by pressing `F2` instead of `Esc`:
-```blade
-<collapsible-sidebar class="..." toggle-key-code="F2">
+```html
+<collapsible-sidebar class="..." toggle-key-code="F2">    
+    <!-- -->
+</collapsible-sidebar>
 ```
 
 
