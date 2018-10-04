@@ -34,6 +34,10 @@
         display: none;
       }
 
+      .trigger + a {
+        display: block;
+      }
+
       + .content {
         max-width: inherit;
       }
