@@ -83,7 +83,7 @@
       }
 
       window.addEventListener('keyup', event => {
-        if (event.code === 'Escape') {
+        if (event.code === this.toggleKeyCode) {
           this.toggleCollapsed();
         }
       });
