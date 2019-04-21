@@ -10,10 +10,11 @@ This package provide you with a collapsible sidebar for the laravel nova admin p
 composer require ebess/nova-collapsible-sidebar
 ```
 
-In order to extend the default sidebar you need to export the layout of nova. 
+In order to extend the default sidebar you need to export the layout of nova.
 
-```php
-php artisan nova:publish
+```bash
+mkdir -p resources/views/vendor/nova
+cp -r vendor/laravel/nova/resources/views/layout.blade.php resources/views/vendor/nova/layout.blade.php
 ```
 
 In `resources/views/vendor/nova/layout.blade.php` you will find the sidebar which looks something like this. 
