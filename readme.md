@@ -60,4 +60,12 @@ Now you can toggle it by pressing `F2` instead of `Esc`:
 </collapsible-sidebar>
 ```
 
-
+If you want the sidebar collapsed by default, insert `$('div.sidebar a.trigger')[0].click();` below `Nova.liftOff();` in the script element at the bottom of `resources/views/vendor/nova/layout.blade.php`.
+```html
+<!-- Start Nova -->
+<script>
+    Nova.liftOff();
+    $('div.sidebar a.trigger')[0].click();
+</script>
+```
+**tip:** Do not use this with the persist functionality above.
